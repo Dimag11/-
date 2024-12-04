@@ -10,9 +10,6 @@ namespace task_2_4
             string result = text
            .Replace("_", "о")
            .Replace("оо", "а");
-            Console.BackgroundColor = ConsoleColor.White;
-            Console.ForegroundColor = ConsoleColor.Black;
-            Console.Clear();
             Console.WriteLine("Исходная строка: " + text);
             Console.WriteLine("Результат: " + result);
             Console.ReadKey(true);

@@ -14,9 +14,6 @@ namespace task_2_2
             string svoey = "поймаешь";
             string svoeyu = "погонишься";
             string ushel = "не";
-            Console.BackgroundColor = ConsoleColor.White;
-            Console.ForegroundColor = ConsoleColor.Black;
-            Console.Clear();
             Console.WriteLine("Выводимое константное сообщение:");
             Console.WriteLine($"{I} {kazhdiy} {poshel} {svoeyu} {dorogoy} {a} {poezd} {ushel} {svoey}");
             Console.WriteLine("Нажмите любую клавишу для завершения");

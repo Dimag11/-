@@ -14,9 +14,6 @@ namespace task_2_3
             string duda = "дуде";
             string igretz = "игрец";
             char dot = '.';
-            Console.BackgroundColor = ConsoleColor.White;
-            Console.ForegroundColor = ConsoleColor.Black;
-            Console.Clear();
             Console.WriteLine("Выводимое константное сообщение...");
             Console.WriteLine(and + " " + sewer + " " + comma + " " + and_s + " " + reaper + " " + comma + " " + and_s + " " + on + " " + duda + " " + igretz + " " + dot);
             Console.WriteLine("Нажмите любую клавишу для завершения.");
