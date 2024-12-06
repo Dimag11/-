@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="25.0.1">
+  <diagram name="Page-1" id="Page-1">
+    <mxGraphModel dx="1386" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1442" pageHeight="2040" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="79qFuH0RCiz_13htR8yA-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="540" as="sourcePoint" />
+            <mxPoint x="660" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2" value="Background" parent="0" />
+        <mxCell id="3" value="&lt;font style=&quot;font-size:13px;font-family:Times New Roman;color:#000000;direction:ltr;letter-spacing:0px;line-height:120.00001%;opacity:1&quot;&gt;Начало&lt;/font&gt;" style="verticalAlign=middle;align=center;vsdxID=1;fillColor=#ffffff;gradientColor=none;shape=stencil(pZDBDsIgEER/ZbN3UjTpDfiXjd0WIkKzoG3/vmiN8eTF02ZeZieZMcXTzFCq5CsvYajeYkieJVR0ZszCk+R7GpyZqXpnbvnBsFpUGmGz2GvsnCG5gDR47hFkO26TJ/0xwapoDUVJrlRDThYbiyQTq/asxkhT8yOUhXl+y1/R6v/k7ig0hhiP9k/2Xbh7TeN2);strokeColor=#000000;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="2" vertex="1">
+          <mxGeometry x="555" y="40" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="&lt;font style=&quot;font-size:13px;font-family:Times New Roman;color:#000000;direction:ltr;letter-spacing:0px;line-height:120.00001%;opacity:1&quot;&gt;Объявление переменной типа&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size:13px;font-family:Times New Roman;color:#000000;direction:ltr;letter-spacing:0px;line-height:120.00001%;opacity:1&quot;&gt;string:&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;a = &quot;ни&quot;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;I = &quot;За&quot;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;poshel = &quot;зайцами&quot;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;svoey = &quot;поймаешь&quot;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;svoeyu = &quot;погонишься&quot;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;ushel = &quot;не&quot;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="verticalAlign=middle;align=center;vsdxID=2;fillColor=#ffffff;gradientColor=none;shape=stencil(bY5bCsIwEEW3EmYBzZRCVZjMXgqdmsGYlDRWu3sx/fH1ey6ce2jxwyxmKTld5K5j8Q40eslagGlKWc453eLINA/FM13TKubhAMFsDlpEsExBY4UtNt2hDl8Yf+Hx1PTdP8mH2e6vk4awJ77Ye5Wt/fwE);strokeColor=#000000;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="2" vertex="1">
+          <mxGeometry x="555" y="135" width="210" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="46gsozcmk7tfe5_9GkBN-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="2" source="5" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;font style=&quot;font-size:13px;font-family:Times New Roman;color:#000000;direction:ltr;letter-spacing:0px;line-height:120.00001%;opacity:1&quot;&gt;Объявление переменной типа &lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:Times New Roman;color:#000000;direction:ltr;letter-spacing:0px;line-height:120.00001%;opacity:1&quot;&gt;int :&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size:13px;font-family:Times New Roman;color:#000000;direction:ltr;letter-spacing:0px;line-height:120.00001%;opacity:1&quot;&gt;kazhdiy = 2&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size:13px;font-family:Times New Roman;color:#000000;direction:ltr;letter-spacing:0px;line-height:120.00001%;opacity:1&quot;&gt;poezd = 1&lt;/font&gt;&lt;/div&gt;" style="verticalAlign=middle;align=center;vsdxID=3;fillColor=#ffffff;gradientColor=none;shape=stencil(bY5bCsIwEEW3EmYBzZRCVZjMXgqdmsGYlDRWu3sx/fH1ey6ce2jxwyxmKTld5K5j8Q40eslagGlKWc453eLINA/FM13TKubhAMFsDlpEsExBY4UtNt2hDl8Yf+Hx1PTdP8mH2e6vk4awJ77Ye5Wt/fwE);strokeColor=#000000;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="2" vertex="1">
+          <mxGeometry x="555" y="320" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;font style=&quot;font-size:13px;font-family:Times New Roman;color:#000000;direction:ltr;letter-spacing:0px;line-height:120.00001%;opacity:1&quot;&gt;Console.WriteLine($&amp;quot;{I} {kazhdiy} {poshel} {svoeyu} {dorogoy} {a} {poezd} {ushel} {svoey}&amp;quot;)&lt;/font&gt;" style="verticalAlign=middle;align=center;vsdxID=5;fillColor=#ffffff;gradientColor=none;shape=stencil(fZDdCgIhEEZfReYFXAVpL9R3EXRTMt1ct+zt86egKLqZgcOB+b7hm1WrQVtO8WRuTmcrwAVrkssg+RKTOaa4By35qrKV/ByvBhUBE6B7m1hy70JHZPoDZ9boZVcaFSLgwCqtm82ACq27WfRLo0+NEDq8D+11Y1wgP1iPgkfyxXk/ajb23gz3H8gH);strokeColor=#000000;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="2" vertex="1">
+          <mxGeometry x="555" y="450" width="210" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;font style=&quot;font-size:13px;font-family:Times New Roman;color:#000000;direction:ltr;letter-spacing:0px;line-height:120.00001%;opacity:1&quot;&gt;Конец&lt;/font&gt;" style="verticalAlign=middle;align=center;vsdxID=6;fillColor=#ffffff;gradientColor=none;shape=stencil(pZDBDsIgEER/ZbN3UjTpDfiXjd0WIkKzoG3/vmiN8eTF02ZeZieZMcXTzFCq5CsvYajeYkieJVR0ZszCk+R7GpyZqXpnbvnBsFpUGmGz2GvsnCG5gDR47hFkO26TJ/0xwapoDUVJrlRDThYbiyQTq/asxkhT8yOUhXl+y1/R6v/k7ig0hhiP9k/2Xbh7TeN2);strokeColor=#000000;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="2" vertex="1">
+          <mxGeometry x="556" y="580" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15" style="vsdxID=7;edgeStyle=none;startArrow=none;endArrow=classic;startSize=5;endSize=5;strokeColor=#000000;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0" parent="2" source="3" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="90" as="sourcePoint" />
+            <mxPoint x="660" y="135" as="targetPoint" />
+            <Array capacity="4" as="points" />
+            <mxPoint y="124" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" style="vsdxID=8;edgeStyle=none;startArrow=none;endArrow=classic;startSize=5;endSize=5;strokeColor=#000000;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0" parent="2" source="4" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="195" as="sourcePoint" />
+            <mxPoint x="660" y="240" as="targetPoint" />
+            <Array capacity="4" as="points" />
+            <mxPoint y="124" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
