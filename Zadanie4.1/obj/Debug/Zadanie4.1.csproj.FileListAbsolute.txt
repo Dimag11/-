@@ -1,0 +1,7 @@
+C:\Users\Дима\source\repos\Zadanie4.1\bin\Debug\Zadanie4.1.exe.config
+C:\Users\Дима\source\repos\Zadanie4.1\bin\Debug\Zadanie4.1.exe
+C:\Users\Дима\source\repos\Zadanie4.1\bin\Debug\Zadanie4.1.pdb
+C:\Users\Дима\source\repos\Zadanie4.1\obj\Debug\Zadanie4.1.csproj.AssemblyReference.cache
+C:\Users\Дима\source\repos\Zadanie4.1\obj\Debug\Zadanie4.1.csproj.CoreCompileInputs.cache
+C:\Users\Дима\source\repos\Zadanie4.1\obj\Debug\Zadanie4.1.exe
+C:\Users\Дима\source\repos\Zadanie4.1\obj\Debug\Zadanie4.1.pdb
