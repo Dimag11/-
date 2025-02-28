@@ -1,7 +1,0 @@
-C:\Users\Дима\source\repos\Zadanie6\bin\Debug\Zadanie6.exe.config
-C:\Users\Дима\source\repos\Zadanie6\bin\Debug\Zadanie6.exe
-C:\Users\Дима\source\repos\Zadanie6\bin\Debug\Zadanie6.pdb
-C:\Users\Дима\source\repos\Zadanie6\obj\Debug\Zadanie6.csproj.AssemblyReference.cache
-C:\Users\Дима\source\repos\Zadanie6\obj\Debug\Zadanie6.csproj.CoreCompileInputs.cache
-C:\Users\Дима\source\repos\Zadanie6\obj\Debug\Zadanie6.exe
-C:\Users\Дима\source\repos\Zadanie6\obj\Debug\Zadanie6.pdb
