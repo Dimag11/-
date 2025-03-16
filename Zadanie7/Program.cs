@@ -8,9 +8,12 @@ namespace Zadanie7
         {
             Console.WriteLine("Введите значения для a, B, X0, XK, delX, n соответственно");
 
-            double a = 0, b = 0, X0 = 0, XK = 0, delX = 0, eps = 0.001, n = 0; 
-
-
+            double a = 0, b = 0, X0 = 0, XK = 0, delX = 0, eps = 0.001, n = 0;
+            double valueForRoot;
+            double cubeRoot;
+            double numerator;
+            double denominatorValue;
+            double j;
 
             while (true)
             {
@@ -60,15 +63,14 @@ namespace Zadanie7
             while (X0 <= XK + eps)
             {
                 // Расчёт кубического корня вручную
-                double valueForRoot = Math.Pow(a, 2) + b - n;
-                double cubeRoot;
-                if (valueForRoot >= 0)
+                valueForRoot = Math.Pow(a, 2) + b - n;
+                 if (valueForRoot >= 0)
                     cubeRoot = Math.Pow(valueForRoot, 1.0 / 3.0); // Корень для положительных чисел
                 else
                     cubeRoot = -Math.Pow(Math.Abs(valueForRoot), 1.0 / 3.0); // Корень для отрицательных чисел
 
                 
-                double denominatorValue = Math.Tan(cubeRoot);
+                denominatorValue = Math.Tan(cubeRoot);
 
                 // Проверка на деление на ноль
                 if (denominatorValue == 0)
@@ -77,9 +79,9 @@ namespace Zadanie7
                 }
                 else
                 {
-                    double numerator = 0.5 * Math.Cos(a * Math.Pow(X0, a)) + b;
+                    numerator = 0.5 * Math.Cos(a * Math.Pow(X0, a)) + b;
 
-                    double j = (numerator / denominatorValue) + Math.Pow(a, 3) * Math.Exp(X0);
+                    j = (numerator / denominatorValue) + Math.Pow(a, 3) * Math.Exp(X0);
 
                     // Проверка на NaN или бесконечность 
                     if (j != j || j == Double.PositiveInfinity || j == Double.NegativeInfinity)
