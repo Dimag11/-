@@ -8,9 +8,10 @@ namespace Zadanie7
         {
             Console.WriteLine("Введите значения для a, B, X0, XK, delX, n соответственно");
 
-            double a = 0, b = 0, X0 = 0, XK = 0, delX = 0, eps = 0.001, n = 0;
+            double a = 0, b = 0, X0 = 0, XK = 0, delX = 0, eps = 0.001, n = 0; 
 
-            
+
+
             while (true)
             {
                 Console.Write("Введите значение a: ");
@@ -56,7 +57,6 @@ namespace Zadanie7
 
             Console.WriteLine("\nРезультаты вычислений:");
 
-           
             while (X0 <= XK + eps)
             {
                 // Расчёт кубического корня вручную
@@ -67,14 +67,30 @@ namespace Zadanie7
                 else
                     cubeRoot = -Math.Pow(Math.Abs(valueForRoot), 1.0 / 3.0); // Корень для отрицательных чисел
 
-                // Остальные вычисления
+                
                 double denominatorValue = Math.Tan(cubeRoot);
-                double numerator = 0.5 * Math.Cos(a * Math.Pow(X0, a)) + b;
 
-                double j = (numerator / denominatorValue) + Math.Pow(a, 3) * Math.Exp(X0);
+                // Проверка на деление на ноль
+                if (denominatorValue == 0)
+                {
+                    Console.WriteLine($"В точке x={X0:F2} функция не определена (деление на ноль).");
+                }
+                else
+                {
+                    double numerator = 0.5 * Math.Cos(a * Math.Pow(X0, a)) + b;
 
-                Console.WriteLine($"В точке x={X0:F2} функция равна = {j:F4}");
+                    double j = (numerator / denominatorValue) + Math.Pow(a, 3) * Math.Exp(X0);
 
+                    // Проверка на NaN или бесконечность 
+                    if (j != j || j == Double.PositiveInfinity || j == Double.NegativeInfinity)
+                    {
+                        Console.WriteLine($"В точке x={X0:F2} функция равна не число (NaN) или бесконечность.");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"В точке x={X0:F2} функция равна = {j:F4}");
+                    }
+                }
                 X0 += delX;
             }
 
@@ -83,7 +99,3 @@ namespace Zadanie7
         }
     }
 }
-
-
-
-
