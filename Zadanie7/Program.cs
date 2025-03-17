@@ -13,7 +13,8 @@ namespace Zadanie7
             double cubeRoot;
             double numerator;
             double denominatorValue;
-            double j;
+            double exponent;
+            double result;
 
             while (true)
             {
@@ -64,40 +65,50 @@ namespace Zadanie7
             {
                 // Расчёт кубического корня вручную
                 valueForRoot = Math.Pow(a, 2) + b - n;
-                 if (valueForRoot >= 0)
+                if (valueForRoot >= 0)
                     cubeRoot = Math.Pow(valueForRoot, 1.0 / 3.0); // Корень для положительных чисел
                 else
                     cubeRoot = -Math.Pow(Math.Abs(valueForRoot), 1.0 / 3.0); // Корень для отрицательных чисел
 
-                
+
                 denominatorValue = Math.Tan(cubeRoot);
 
                 // Проверка на деление на ноль
-                if (denominatorValue == 0)
+                if (Math.Abs(denominatorValue) < eps)
                 {
                     Console.WriteLine($"В точке x={X0:F2} функция не определена (деление на ноль).");
                 }
                 else
                 {
-                    numerator = 0.5 * Math.Cos(a * Math.Pow(X0, a)) + b;
 
-                    j = (numerator / denominatorValue) + Math.Pow(a, 3) * Math.Exp(X0);
-
-                    // Проверка на NaN или бесконечность 
-                    if (j != j || j == Double.PositiveInfinity || j == Double.NegativeInfinity)
+                    if (X0 < 0 && a % 1 != 0)
                     {
-                        Console.WriteLine($"В точке x={X0:F2} функция равна не число (NaN) или бесконечность.");
+                        Console.WriteLine($"В точке x={X0:F2} возведение в дробную степень не определено.");
                     }
                     else
                     {
-                        Console.WriteLine($"В точке x={X0:F2} функция равна = {j:F4}");
+                        exponent = Math.Pow(Math.Abs(X0) + eps, a) * Math.Sign(X0);
+                        numerator = 0.5 * Math.Cos(exponent) + b;
+                        result = (numerator / denominatorValue) + Math.Pow(a, 3) * Math.Exp(X0);
+
+
+                        // Проверка на NaN или бесконечность 
+                        if (result != result || result == Double.PositiveInfinity || result == Double.NegativeInfinity)
+                        {
+                            Console.WriteLine($"В точке x={X0:F2} функция равна не число (NaN) или бесконечность.");
+                        }
+                        else
+                        {
+                            Console.WriteLine($"В точке x={X0:F2} функция равна = {result:F4}");
+                        }
                     }
                 }
-                X0 += delX;
-            }
+                    X0 += delX;
+                }
 
-            Console.WriteLine("Выполнение завершено.");
-            Console.ReadKey();
+                Console.WriteLine("Выполнение завершено.");
+                Console.ReadKey();
+            }
         }
     }
-}
+
