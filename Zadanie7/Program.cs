@@ -78,14 +78,7 @@ namespace Zadanie7
                         {
                             Console.WriteLine($"В точке x={X0:F2} возведение в дробную степень не определено.");
                         }
-                        if (X0 == 0 && a < 0)
-                        {
-                            Console.WriteLine($"В точке x={X0:F2} возведение в отрицательную  степень не определено.");
-                        }
-                        if (X0 == 0 && a == 0)
-                        {
-                            Console.WriteLine($"В точке x={X0:F2} возведение в нулевую  степень не определено.");
-                        }
+                        
                         else
                         {
                             exponent = Math.Pow(Math.Abs(X0) + eps, a) * Math.Sign(X0);
